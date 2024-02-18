@@ -1,1 +1,5 @@
-
+postgres:
+  connection:
+    url: jdbc:postgresql://localhost:5432/hplussport
+    user: webstartrek
+    password: webstartrek
