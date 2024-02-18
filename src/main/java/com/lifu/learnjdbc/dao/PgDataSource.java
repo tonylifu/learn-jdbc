@@ -20,7 +20,7 @@ public class PgDataSource {
     static {
         HikariConfig config = new HikariConfig();
         config.setJdbcUrl(url);
-        config.setUsername(url);
+        config.setUsername(user);
         config.setPassword(password);
         config.setMaximumPoolSize(10); // Adjust according to your production needs
         config.setConnectionTimeout(30000); // 30 seconds
